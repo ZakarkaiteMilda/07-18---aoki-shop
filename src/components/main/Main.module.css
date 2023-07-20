@@ -1,0 +1,53 @@
+.main {
+    grid-area: main;
+    padding: 2rem 3rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 17rem;
+}
+.steps {
+    display: flex;
+    gap: 7rem;
+}
+.stepToSell {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f95582 ;
+    padding: 20px;
+    
+}
+
+.go {
+    width: 2.5rem;
+    background-color: #fff;
+    color: #f95582;
+    border-radius: 3px;
+    text-align: center;
+}
+.stepText  {
+display: flex;  
+gap: 4rem;
+}
+
+h1 {
+    color: #f95582;
+
+}
+
+h4 {
+   
+}
+
+.stepDescription {
+    font-size: 0.8rem;
+    margin-right: 2.5rem;
+}
+
