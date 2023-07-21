@@ -5,6 +5,38 @@
     grid-gap: 1.5rem; 
 }
 .card {
-    background-color: gray;
+    display: flex;
+    background-color: rgb(249, 235, 235);
     border-radius: 0.5rem;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: rgb(157, 156, 156);
+}
+
+.iconTodayData {
+    width: 4rem;
+    margin: 1rem 0 0 2.5rem;
+}
+
+.textTodayData{
+    margin: 1rem 0 0 1rem;
+}
+
+.containerTodayData{
+    width: 3.4rem;
+    height: 3.4rem;
+    background-color: #f2efef;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 0.5rem; 
+}
+
+.number {
+    font-size: 2rem;
+    color: rgb(58, 58, 58);
+}
+
+h4 {
+    color: rgb(127, 127, 127);
 }
