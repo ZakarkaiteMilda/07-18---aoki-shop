@@ -1,0 +1,24 @@
+.textHome {
+    color: #fa386b;
+    text-decoration: none;
+}
+.icontHome {
+    color: #fa386b;
+    font-size: 1rem;
+}
+
+.textlink {
+    text-decoration: none;
+}
+.textlink {
+    font-size: 1rem;
+}
+
+.asideRow {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 2rem 0 2rem;
+}
+aside {
+    margin-top: 1srem;
+}

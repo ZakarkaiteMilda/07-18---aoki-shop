@@ -13,7 +13,6 @@ export function Header() {
                 <button className={style.btn}>Basic</button>
             </div>
          
-
             <div className={style.right}>
                 <a className={style.link} href="/">Notice</a>
                 <a className={style.link} href="/">Help center</a>
