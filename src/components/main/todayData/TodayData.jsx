@@ -57,16 +57,43 @@ export function TodayData() {
                 <div className={style.containerIconTodayData}>
                     <img className={style.iconTodayData} src={icon4} alt="icon4" />
                 </div>  
-
             </div>
-                <div className={style.card}></div>
-                <div className={style.card}></div>
-                <div className={style.card}></div>
-                <div className={style.card}></div>
-                <div className={style.card}></div>
-                <div className={style.card}></div>
-                <div className={style.card}></div>
-            </div>         
+        </div>   
+
+                   <div className={style.cards}>
+
+            <div className={style.card}>
+                <div className={style.textTodayData}>
+                    <h4>Live stream viewers</h4>
+                    <p className={style.number}>23,466</p>
+                    <p className={style.description}>Yesterday 22089</p>                                 
+                </div>  
+            </div>
+
+            <div className={style.card}>
+                <div className={style.textTodayData}>
+                    <h4>New attention</h4>
+                    <p className={style.number}>4,890</p>
+                    <p className={style.description}>Yesterday 3800</p>                                 
+                </div>  
+            </div>
+
+            <div className={style.card}>
+                <div className={style.textTodayData}>
+                    <h4>Cumuletive attention</h4>
+                    <p className={style.number}>135,743</p>
+                    <p className={style.description}>Yesterday 130493</p>                                 
+                </div>
+            </div>
+
+            <div className={style.card}>
+                <div className={style.textTodayData}>
+                    <h4>Number of orders</h4>
+                    <p className={style.number}>5,249</p>
+                    <p className={style.description}>Yesterday 4680</p>                                 
+                </div>
+            </div>
+        </div>         
         </section>
     );
 }
