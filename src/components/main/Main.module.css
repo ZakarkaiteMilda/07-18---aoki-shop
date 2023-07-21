@@ -3,18 +3,13 @@
 }
 
 .background {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem 3rem;
-        background-color: #fff;
-        border-radius: 2rem;
-        margin: 0 2rem 2rem 2rem;
-}
-
-.section {
- 
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    margin: 0 2rem 2rem 2rem;
 }
 
 .miniHeader {
@@ -33,6 +28,6 @@
 }
 
 h2 {
-    color:black;
+    color: black;
     font-size: 1.2rem;
 }

@@ -6,14 +6,13 @@
     color: #fa386b;
     font-size: 1rem;
 }
-
 .textlink {
     text-decoration: none;
+    color:grey;
 }
-.textlink {
+.iconlink {
     font-size: 1rem;
 }
-
 .asideRow {
     display: flex;
     gap: 1rem;
@@ -21,4 +20,13 @@
 }
 aside {
     margin-top: 1srem;
+}
+.downShop {
+    font-size: 1rem;
+    color: rgb(135, 134, 134);
+    margin-left: 2rem;
+}
+.downApplication {
+    font-size: 1rem;
+    color: rgb(135, 134, 134);
 }

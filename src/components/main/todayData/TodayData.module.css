@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 7rem 1.5rem;
-    grid-gap: 1.5rem; 
+    grid-gap: 1.5rem;
 }
+
 .card {
     display: flex;
     background-color: rgb(249, 235, 235);
@@ -20,15 +21,15 @@
     margin: 1rem 0 0 2.5rem;
 }
 
-.textTodayData{
+.textTodayData {
     margin: 1rem 0 0 1rem;
 }
 
-.containerTodayData{
+.containerTodayData {
     width: 3.4rem;
     height: 3.4rem;
     background-color: #f2efef;
-    border-radius: 0.5rem; 
+    border-radius: 0.5rem;
 }
 
 .number {
