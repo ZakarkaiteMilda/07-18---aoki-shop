@@ -1,3 +1,10 @@
-.background {
-    background-color: greenyellow;
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 7rem 7rem;
+    grid-gap: 1.5rem; 
+}
+.card {
+    background-color: gray;
+    border-radius: 0.5rem;
 }
