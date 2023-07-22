@@ -1,10 +1,10 @@
 import style from "./MainHeader.module.css";
 
-export function MainHeader() {
+export function MainHeader({ title, tasks }) {
   return (
     <div className={style.header}>
       <div>
-        <h1>Well begun is half done</h1>
+        <h1>{title} ({tasks.length})</h1>
         <p>Complete the following steps to sell</p>
       </div>
       <div className={style.steps}>

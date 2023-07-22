@@ -5,11 +5,11 @@ import icon2 from "../../../img/icon/2-icon.png";
 import icon3 from "../../../img/icon/3-icon.png";
 import icon4 from "../../../img/icon/4-icon.png";
 
-export function TodayData() {
+export function TodayData({ title, tasks }) {
   return (
     <section className={style2.section}>
       <div className={style2.miniHeader}>
-        <h2>Today's data</h2>
+        <h2>{title} ({tasks.length})</h2>
         <a className={style2.more} href="/">
           More
         </a>

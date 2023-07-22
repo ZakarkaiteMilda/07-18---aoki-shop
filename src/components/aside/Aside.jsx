@@ -1,16 +1,16 @@
 import style from './Aside.module.css';
 import {GrHomeRounded} from 'react-icons/gr';
-import {RiLiveLine} from 'react-icons/ri';
-import {CiShop} from 'react-icons/ci';
 import {LiaShoppingBagSolid} from 'react-icons/lia';
-import {RiBillLine} from 'react-icons/ri';
+import {BiChevronDown} from 'react-icons/bi';
 import {BsClipboard2Data} from 'react-icons/bs';
 import {TbCoinBitcoin} from 'react-icons/tb';
 import {PiSquaresFourThin} from 'react-icons/pi';
-import {CiSettings} from 'react-icons/ci';
-import {BiChevronDown} from 'react-icons/bi';
+import {CiSettings, CiShop} from 'react-icons/ci';
+import {RiLiveLine, RiBillLine} from 'react-icons/ri';
+
 
 export function Aside() {
+
     return (
         <aside>
             <div className={style.asideRow}> 

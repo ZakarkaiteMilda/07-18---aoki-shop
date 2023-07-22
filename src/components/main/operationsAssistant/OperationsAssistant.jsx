@@ -9,11 +9,11 @@ import icon10 from "../../../img/icon/10-icon.png";
 import icon11 from "../../../img/icon/11-icon.png";
 import icon12 from "../../../img/icon/12-icon.png";
 
-export function OperationsAssistant() {
+export function OperationsAssistant({ title, tasks }) {
   return (
     <section className={style2.section}>
       <div className={style2.miniHeader}>
-        <h2>Operations Assistant</h2>
+        <h2>{title} ({tasks.length})</h2>
         <a className={style2.more} href="/">
           More
         </a>
